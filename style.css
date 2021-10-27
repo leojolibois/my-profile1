@@ -1,0 +1,100 @@
+h1 {
+	color: #012A4A;
+	font-size: 32px;
+	font-weight: 900;
+
+}
+
+body{
+	background-color: #012A4A;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	text-align: center;
+	color: #012A4A;
+	font-size: 30px;
+	font-family: "Arial", serif;
+	margin-bottom: : 40px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #FFFFFC;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: :  40px;
+}
+
+p {
+	color: #FFFFFC;
+	text-align: justify-all;
+
+}
+div {
+	border: 3px solid light-grey;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px rgba (0,0,0,0,2);
+	padding: 30px;
+	margin: auto;
+	background-color: #89C2D9;
+	text-align: center;
+
+ }
+.button-purple{
+	background-color: #012A4A;
+	color: white;
+	padding: 12px;
+	border-radius: 5px;
+	font-weight:bolder;
+	font-size: 14px;
+}
+.button-purple:hover{
+	background-color: #014F86;
+}
+ .img-circle{
+ 	border-radius: 50%;
+ 	text-align: center;
+ }
+ .container{
+ 	width: 700px;
+ 	margin: 40px auto;
+ 	text-align: center;
+ }
+
+li
+{
+	list-style-type: none;
+	display: inline;
+	padding: 0px 30px;
+	padding-left: 0px;
+	text-align: center;
+}
+a{
+	color: #FFFFFC
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+i{
+	color: white;
+	font-size: 50px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    
